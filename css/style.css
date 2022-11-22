@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+
+}
+/*this section consists of header properties*/
+header {
+    background-color: #1F2937;
+    font-family: roboto,sans-serif,serif;
+    color: #F9FAF8;
+    
+}
+.header-links-logo {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    padding-top: 10px;
+    
+}
+.header-logo {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px;
+    
+}
+.hero-text-button {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: auto;
+    
+    
+}
+.hero-maintext {
+    font-size: 48px;
+    font-weight:700;
+}
+.sign-up-button {
+    background-color: #3882F6;
+    width:fit-content;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border:0px;
+    font-weight:700;
+}
+.placeholder1 {
+    background-color: rgb(121, 117, 138);
+    text-align: center;
+    padding: 100px;
+    width: 300px;
+}
+/*end of header properties*/
